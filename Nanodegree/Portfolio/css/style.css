@@ -1,0 +1,171 @@
+.border {
+    border-style: solid;
+    border-width: 2px;
+}
+
+/***** flex stuff ****/
+
+.page-parent {
+    height: 1500px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.name-logo-parent {
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+
+.job-description-parent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.banner-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 3vw;
+}
+
+.pi-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 31.5%;
+}
+
+@media screen and (max-width: 575px) {
+    .item5 {
+        flex-direction: column;
+    }
+
+    .item6 {
+        width: 100%;
+    }
+}
+.item2 {
+    width: 81.4%;
+}
+
+.item3 {
+    width: 81.4%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.item4 {
+    margin-top: 10px;
+    width: 81.4%;
+
+}
+
+.item5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 81.4%;
+
+}
+
+.item6 {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+#banner-formatting {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#super-title {
+
+    font-size: 4vw;
+    font-weight: 100;
+    /*border-style:solid;
+    border-width:2px;*/
+}
+
+#job-description {
+    font-size: 2vw;
+    font-weight: 500;
+    /*top: 90px;*/
+}
+
+.name-and-description {
+    /*border-style: solid;
+    border-width: 2px;*/
+    padding: 20px;
+    width: 400px;
+    right:115px;
+}
+
+.logo-formatting{
+    /*border-style:solid;
+    border-width:2px;*/
+    max-width: 100%;
+    height: auto;
+    /*position:absolute;
+    top: 55px;
+    left:115px;*/
+}
+
+
+.bottom-div-formatting {
+    /*border-style: solid;
+    border-width: 2px;*/
+    text-align: right;
+    width: 1035px;
+    top: 650px;
+    left: 110px;
+}
+
+#featured-work {
+    /*border-style: solid;
+    border-width: 2px;*/
+    font-size: 4vw;
+    font-weight: 300;
+    text-align: left;
+    color: #7d97ad;
+}
+
+.project-title {
+    /*border-style: solid;
+    border-width: 2px;*/
+    font-size: 40px;
+    font-weight:200;
+}
+
+.project-image-formatting {
+    /*border-style: solid;
+    border-width: 2px;*/
+    max-width: 100%;
+    height: auto;
+}
+
+.align_right {
+    /*border-style: solid;
+    border-width: 2px;*/
+    text-align: right;
+}
